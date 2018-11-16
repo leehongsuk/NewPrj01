@@ -1,10 +1,10 @@
-from xmlrpc.server import SimpleXMLRPCServer
-import xmlrpc.client
+from xmlrpc_sample.server import SimpleXMLRPCServer
+import xmlrpc_sample.client
 
 
 def python_logo():
     with open("./images/python_logo.jpg", "rb") as handle:
-        return xmlrpc.client.Binary(handle.read())
+        return xmlrpc_sample.client.Binary(handle.read())
 
 
 server = SimpleXMLRPCServer(("localhost", 8000))

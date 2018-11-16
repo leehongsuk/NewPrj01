@@ -1,11 +1,11 @@
 import datetime
-from xmlrpc.server import SimpleXMLRPCServer
-import xmlrpc.client
+from xmlrpc_sample.server import SimpleXMLRPCServer
+import xmlrpc_sample.client
 
 
 def today():
     today1 = datetime.datetime.today()
-    return xmlrpc.client.DateTime(today1)
+    return xmlrpc_sample.client.DateTime(today1)
 
 
 server = SimpleXMLRPCServer(("localhost", 8000))
