@@ -1,10 +1,10 @@
-'''
+"""
 
 CGV
 
 http://www.cgv.co.kr/
 
-'''
+"""
 
 import logging
 import sys

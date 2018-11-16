@@ -1,10 +1,11 @@
-'''
+"""
 
 MAGA BOX
 
 http://www.megabox.co.kr/
 
-'''
+"""
+
 import re
 import json
 from jsonpath_rw import jsonpath, parse  # pip install jsonpath-rw      https://pypi.python.org/pypi/jsonpath-rw

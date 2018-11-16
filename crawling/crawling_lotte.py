@@ -1,9 +1,9 @@
-'''
+"""
 롯데 시네마
 
 http://www.lottecinema.co.kr/
 
-'''
+"""
 
 import random
 import datetime, time
