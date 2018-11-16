@@ -1,7 +1,7 @@
-import xmlrpc_sample.client
+import xmlrpc.client
 import datetime
 
-proxy = xmlrpc_sample.client.ServerProxy("http://localhost:8000")
+proxy = xmlrpc.client.ServerProxy("http://localhost:8000")
 
 today = proxy.today()
 converted = datetime.datetime.strptime(today.value, "%Y%m%dT%H:%M:%S" )
