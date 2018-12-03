@@ -1,4 +1,5 @@
-# https://docs.python.org/3/library/xmlrpc.client.html
+#  https://docs.python.org/3/library/xmlrpc.client.html
+# Binary Objects
 from xmlrpc.server import SimpleXMLRPCServer
 import xmlrpc.client
 
