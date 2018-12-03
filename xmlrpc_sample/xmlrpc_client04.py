@@ -5,7 +5,8 @@ import xmlrpc.client
 
 proxy = xmlrpc.client.ServerProxy("http://localhost:8000")
 try:
-    proxy.add(2, 5)
+    i = proxy.add(2, 5)
+    print("I = %d" % i)
 except xmlrpc.client.Fault as err:
     print("A Fault occured")
     print("Fault code %d" % err.faultCode)
