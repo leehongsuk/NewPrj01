@@ -14,3 +14,5 @@ with ServerProxy("http://betty.userland.com/RPC2") as proxy:
             print(proxy.examples.getStateName(41))
     except Error as v:
         print("ERROR", v)
+
+
