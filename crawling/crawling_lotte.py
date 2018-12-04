@@ -6,7 +6,8 @@ http://www.lottecinema.co.kr/
 """
 
 import random
-import datetime, time
+import datetime
+import time
 import urllib3  # pip install urllib3
 import json
 from jsonpath_rw import jsonpath, parse  # pip install jsonpath-rw      https://pypi.python.org/pypi/jsonpath-rw
