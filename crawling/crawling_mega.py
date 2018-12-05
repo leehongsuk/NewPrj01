@@ -4,13 +4,17 @@ MAGA BOX
 
 http://www.megabox.co.kr/
 
+pip가 최신인지 확인..
+> python -m pip install --upgrade pip
+
+
 """
 
 import re
 import json
 from jsonpath_rw import jsonpath, parse  # pip install jsonpath-rw      https://pypi.python.org/pypi/jsonpath-rw
 from urllib.request import urlopen
-from bs4 import BeautifulSoup
+from bs4 import BeautifulSoup  # pip install BeatifulSoup4
 import requests # http://docs.python-requests.org/en/master/user/quickstart/ pip install requests
 from multiprocessing import Queue # python Setup.py build # exe 파일 생성을 위해 꼭 필요
 import urllib3  # pip install urllib3

@@ -4,15 +4,18 @@ CGV
 
 http://www.cgv.co.kr/
 
+pip가 최신인지 확인..
+> python -m pip install --upgrade pip
+
 """
 
 import logging
 import sys
 import datetime
 import time
-from bs4 import BeautifulSoup
+from bs4 import BeautifulSoup  # pip install BeatifulSoup4
 # ChromeDriver 다운로드 사이트 (https://sites.google.com/a/chromium.org/chromedriver/downloads)
-from selenium import webdriver # pip install selenium
+from selenium import webdriver  # pip install selenium
 import urllib3  # pip install urllib3
 import json
 
