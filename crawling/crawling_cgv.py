@@ -13,7 +13,7 @@ import logging
 import sys
 import datetime
 import time
-from bs4 import BeautifulSoup  # pip install BeatifulSoup4
+from bs4 import BeautifulSoup  # pip install BeautifulSoup4
 # ChromeDriver 다운로드 사이트 (https://sites.google.com/a/chromium.org/chromedriver/downloads)
 from selenium import webdriver  # pip install selenium
 import urllib3  # pip install urllib3
