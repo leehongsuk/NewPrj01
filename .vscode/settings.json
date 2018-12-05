@@ -1,0 +1,16 @@
+{
+    "python.unitTest.unittestArgs": [
+        "-v",
+        "-s",
+        "./xmlrpc_sample",
+        "-p",
+        "*_test.py"
+    ],
+    "python.unitTest.pyTestEnabled": false,
+    "python.unitTest.nosetestsEnabled": false,
+    "python.unitTest.unittestEnabled": false,
+    "python.unitTest.promptToConfigure": false,
+    "python.pythonPath": "venv\\Scripts\\python.exe",
+    "python.linting.enabled": false,
+    "git.ignoredRepositories": ["./vscode"]
+}

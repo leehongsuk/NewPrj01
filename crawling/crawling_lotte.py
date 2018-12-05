@@ -3,10 +3,14 @@
 
 http://www.lottecinema.co.kr/
 
+pip가 최신인지 확인..
+> python -m pip install --upgrade pip
+
 """
 
 import random
-import datetime, time
+import datetime
+import time
 import urllib3  # pip install urllib3
 import json
 from jsonpath_rw import jsonpath, parse  # pip install jsonpath-rw      https://pypi.python.org/pypi/jsonpath-rw
