@@ -4,14 +4,10 @@
     <meta charset="UTF-8">
     <title>list</title>
 </head>
-<body>
+<li>
+    <li>저자|제목|날짜</li>
     {% for article in articleList %}
-    {{ article.name }} |
-    {{ article.title }} |
-    {{ article.contents }} |
-    {{ article.url }} |
-    {{ article.email }} |
-    {{ article.cdate|date:"D d M Y" }} <br>
+    <li>{{ article.name }} | {{ article.title }} | {{ article.cdate|date:"D d M Y" }} </li>
 
     {% endfor %}
 </body>

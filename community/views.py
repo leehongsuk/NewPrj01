@@ -16,3 +16,8 @@ def write(request):
 def list(request):
     articleList = Article.objects.all()
     return render(request, 'list.html', {'articleList': articleList})
+
+
+def view(request, num="1"):
+    article = Article.objects.get(id=num)
+    return render(request, 'view.html', {'article': article})
