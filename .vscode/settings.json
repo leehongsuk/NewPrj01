@@ -10,7 +10,9 @@
     "python.unitTest.nosetestsEnabled": false,
     "python.unitTest.unittestEnabled": false,
     "python.unitTest.promptToConfigure": false,
-    "python.pythonPath": "venv\\Scripts\\python.exe",
     "python.linting.enabled": false,
-    "git.ignoredRepositories": ["./vscode"]
+    "git.ignoredRepositories": [
+        "./vscode"
+    ],
+    "python.pythonPath": "venv\\Scripts\\python.exe"
 }
