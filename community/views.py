@@ -1,8 +1,13 @@
 from django.shortcuts import render
+from django.http import HttpResponse
 from community.forms import *
 
 
 # Create your views here.
+def index(request):
+    return HttpResponse('<h1>Helllow World</h1>')
+
+
 def write(request):
     if request.method == 'POST':
         form = Form(request.POST)
