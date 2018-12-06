@@ -1,10 +1,18 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="kr">
 <head>
     <meta charset="UTF-8">
     <title>list</title>
 </head>
 <body>
+    {% for article in articleList %}
+    {{ article.name }} |
+    {{ article.title }} |
+    {{ article.contents }} |
+    {{ article.url }} |
+    {{ article.email }} |
+    {{ article.cdate|date:"D d M Y" }} |
 
+    {% endfor %}
 </body>
 </html>
