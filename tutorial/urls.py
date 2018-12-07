@@ -19,7 +19,7 @@ from community.views import *
 
 
 urlpatterns = (
-    re_path('', index),
+    #re_path('', index),
     path('admin/', admin.site.urls),
     path('write/', write, name='write'),
     path('list/', list, name='list'),
