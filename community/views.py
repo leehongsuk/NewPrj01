@@ -5,7 +5,7 @@ from community.forms import *
 
 # Create your views here.
 def index(request):
-    return HttpResponse('<h1>Helllow World</h1>')
+    return HttpResponse('<h1>Hellow World</h1>')
 
 
 def write(request):
