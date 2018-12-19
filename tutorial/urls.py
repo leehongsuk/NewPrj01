@@ -26,4 +26,5 @@ urlpatterns = (
     path('write/', write, name='write'),
     path('list/', list, name='list'),
     path('view/<int:num>/', view),
+    path('edit/<int:num>/', edit),
 )

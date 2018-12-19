@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Edit</title>
+</head>
+<body>
+    <form action="" method="post">
+            {{ form.as_p  }}
+            {% csrf_token %}
+            <button type="submit" title="" class="btn btn-primary">수정</button>
+    </form>
+</body>
+</html>
