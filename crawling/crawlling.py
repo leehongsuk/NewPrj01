@@ -5,7 +5,7 @@ pip가 최신인지 확인..
 
 """
 from urllib.request import urlopen
-from bs4 import BeautifulSoup    # pip install BeatifulSoup4
+from bs4 import BeautifulSoup    # pip install BeautifulSoup4
 # from selenium import webdriver
 
 
